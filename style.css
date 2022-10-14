@@ -1,0 +1,129 @@
+body {
+    display: block;
+    margin: 8px;
+}
+.box1{
+    text-align: center;
+    height: 30px;
+    background-color: red;
+    background-image: linear-gradient(to right, red, green,yellow);
+    text-decoration: underline;
+    
+}
+ul{
+    width: 50%;
+    border: 5px solid red;
+    text-align: center;
+    background-color: rgb(109, 203, 231);
+    color: black;
+    border-radius: 20px;
+    margin: auto;   
+}
+.box-section{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: aqua;
+}
+.div{
+    text-align: center;
+    height: fit-content;
+    font-weight: 900;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3{
+    text-align: center;
+    height: 30px;
+    background-color: red;
+    background-image: linear-gradient(red, yellow);
+    text-decoration: underline;
+}
+.mbox{
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    width: 15rem;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.box5{
+    height: 20rem;
+    border: 3px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  background: radial-gradient(rgb(12, 41, 136), rgb(81, 182, 223), rgb(83, 236, 83));
+}
+.mbox{
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    width: 15rem;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.grid-section{
+    border: 1px solid black;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 150px;
+    grid-template-rows: 60px 100px 200px 60px;
+    gap: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: center;
+}
+.div-1{
+    font-size: 1.5rem;
+    grid-column: 1/-1;
+    background-color: red;
+}
+.div-2 {
+    font-size: 1.3rem;
+    grid-column: 1/2;
+    background-color: rgb(3, 255, 32);
+}
+.div-3 {
+    font-size: 1.3rem;
+    grid-column: 2/3;
+    background-color: rgb(148, 17, 178);
+}
+.div-4 {
+    font-size: 1.3rem;
+    grid-column: 3/4;
+    background-color: blueviolet;
+}
+.div-5 {
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: rgb(20, 10, 76);
+    font-size: medium;
+}
+.div-6 {
+    font-size: 1.5rem;
+    grid-column: 1/4;
+    background-color: rgb(192, 122, 61);
+}
+.div-7{
+    grid-column: 1/-1;
+    background-color: rgb(0, 255, 255);
+    color: black;
+    font-size: medium;
+}
